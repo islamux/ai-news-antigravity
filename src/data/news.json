@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "India’s Sarvam launches Indus AI chat app as competition heats up",
+    "summary": "Sarvam AI, an Indian AI startup, launched its Indus AI chat app, targeting the Indian market with localized capabilities.",
+    "date": "2026-02-20",
+    "category": "LLM",
+    "url": "https://techcrunch.com/2026/02/20/indias-sarvam-launches-indus-ai-chat-app-as-competition-heats-up/",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2",
+    "title": "Grok is now pretty good at answering questions about Baldur’s Gate",
+    "summary": "Elon Musk's xAI chatbot Grok has shown improvement in specialized knowledge, such as gaming details for Baldur's Gate.",
+    "date": "2026-02-20",
+    "category": "Gaming",
+    "url": "https://techcrunch.com/2026/02/20/great-news-for-xai-grok-is-now-pretty-good-at-answering-questions-about-baldurs-gate/",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "3",
+    "title": "OpenAI debated calling police about suspected Canadian shooter’s chats",
+    "summary": "Internal documents reveal OpenAI's dilemma over whether to report a user's concerning messages to law enforcement.",
+    "date": "2026-02-20",
+    "category": "Ethics",
+    "url": "https://techcrunch.com/2026/02/20/openai-debated-calling-police-about-suspected-canadian-shooters-chats/",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "4",
+    "title": "Reddit is testing a new AI search feature for shopping",
+    "summary": "Reddit is experimenting with AI-powered search enhancements to help users find and purchase products more easily.",
+    "date": "2026-02-19",
+    "category": "Search",
+    "url": "https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "5",
+    "title": "ChatGPT ads are live",
+    "summary": "Ads from Expedia, Qualcomm, Best Buy, and Enterprise Mobility are starting to show up in ChatGPT responses.",
+    "date": "2026-02-20",
+    "category": "Business",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/881718/chatgpt-ads-in-the-wild",
+    "source": "The Verge"
+  },
+  {
+    "id": "6",
+    "title": "US lowering power plant pollution standards as AI revives coal plants",
+    "summary": "The massive energy requirements of generative AI are contributing to shifts in US energy policy and the revival of coal energy.",
+    "date": "2026-02-20",
+    "category": "Energy",
+    "url": "https://www.theverge.com/25134271/us-power-plant-pollution-standards-lower-generative-ai",
+    "source": "The Verge"
+  }
+]
