@@ -9,6 +9,7 @@
 
   --font-sans: "Inter", sans-serif;
   --font-heading: "Outfit", sans-serif;
+  --font-arabic: "Cairo", sans-serif;
 }
 
 :root {
@@ -42,4 +43,15 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+/* Arabic RTL global overrides */
+[dir="rtl"] body,
+[dir="rtl"] {
+  font-family: var(--font-arabic), sans-serif;
+}
+
+[dir="rtl"] .font-heading {
+  font-family: var(--font-arabic), sans-serif;
+  font-weight: 900;
 }

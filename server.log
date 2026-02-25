@@ -1,0 +1,40 @@
+
+> ai-news-antigravity@0.1.0 dev /home/islamux/ai-news-antigravity
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/islamux/pnpm-lock.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /home/islamux/ai-news-antigravity/pnpm-lock.yaml
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.88.252:3000
+
+✓ Starting...
+✓ Ready in 1032ms
+○ Compiling / ...
+ GET / 200 in 14.2s (compile: 13.7s, render: 539ms)
+ GET /grid.svg 404 in 1200ms (compile: 969ms, render: 232ms)
+ GET /sw.js 404 in 200ms (compile: 16ms, render: 185ms)
+ GET / 200 in 329ms (compile: 23ms, render: 306ms)
+ GET /grid.svg 404 in 122ms (compile: 6ms, render: 116ms)
+ GET /sw.js 404 in 120ms (compile: 13ms, render: 107ms)
+ HEAD / 200 in 169ms (compile: 6ms, render: 163ms)
+ GET / 200 in 149ms (compile: 5ms, render: 144ms)
+✓ Compiled in 77ms
+✓ Compiled in 94ms
+✓ Compiled in 69ms
+✓ Compiled in 53ms
+ GET /sw.js 404 in 114ms (compile: 16ms, render: 98ms)
+ GET /sw.js 404 in 97ms (compile: 12ms, render: 86ms)
+ GET /sw.js 404 in 100ms (compile: 12ms, render: 87ms)
+ GET / 200 in 860ms (compile: 347ms, render: 513ms)
+ GET /grid.svg 404 in 92ms (compile: 5ms, render: 88ms)
+ GET /sw.js 404 in 68ms (compile: 5ms, render: 63ms)
+ GET / 200 in 283ms (compile: 11ms, render: 272ms)
+ GET /grid.svg 404 in 81ms (compile: 5ms, render: 76ms)
+ GET /sw.js 404 in 77ms (compile: 6ms, render: 71ms)
+ GET /sw.js 404 in 87ms (compile: 15ms, render: 71ms)

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Outfit } from "next/font/google";
+import { Inter, Outfit, Cairo } from "next/font/google";
+import { LanguageProvider } from "@/context/LanguageContext";
 import "./globals.css";
 
 const inter = Inter({
@@ -12,9 +13,16 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
+const cairo = Cairo({
+  variable: "--font-cairo",
+  subsets: ["arabic"],
+  weight: ["400", "600", "700", "900"],
+});
+
 export const metadata: Metadata = {
-  title: "AI News - Antigravity",
-  description: "Stay ahead with real-time AI news and trends.",
+  title: "AI News - Antigravity | أخبار الذكاء الاصطناعي",
+  description:
+    "Stay ahead with real-time AI news and trends. | ابقَ في الطليعة مع أحدث أخبار الذكاء الاصطناعي.",
 };
 
 export default function RootLayout({
@@ -25,9 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.variable} ${outfit.variable} font-sans antialiased`}
+        className={`${inter.variable} ${outfit.variable} ${cairo.variable} font-sans antialiased`}
       >
-        {children}
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );
